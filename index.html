@@ -1,55 +1,116 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BTSINFO</title>
 
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-margin:0;
-background:#0b0b14;
+font-family:tahoma,sans-serif;
+background:#080b14;
 color:white;
-font-family:sans-serif;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-flex-direction:column;
 }
 
-h1{
-font-size:55px;
-margin:0;
-background:linear-gradient(90deg,#ffffff,#c084fc);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+header{
+padding:30px;
+text-align:center;
+background:linear-gradient(135deg,#6d28d9,#9333ea);
 }
 
-p{
+header h1{
+font-size:42px;
+}
+
+header p{
+margin-top:10px;
 opacity:.8;
 }
 
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:#111827;
+border-radius:20px;
+padding:20px;
+margin-bottom:20px;
+}
+
+.card img{
+width:100%;
+border-radius:15px;
+margin-bottom:15px;
+}
+
+.card h2{
+margin-bottom:10px;
+}
+
+.card p{
+line-height:1.8;
+color:#d1d5db;
+}
+
 button{
-margin-top:25px;
-padding:15px 40px;
-border:none;
-border-radius:30px;
-background:linear-gradient(90deg,#a855f7,#d8b4fe);
+background:#9333ea;
 color:white;
-font-size:18px;
+border:none;
+padding:12px 25px;
+border-radius:10px;
+margin-top:15px;
+cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#9ca3af;
 }
 </style>
 
 </head>
-
 <body>
 
+<header>
 <h1>BTSINFO</h1>
+<p>جدیدترین اخبار BTS</p>
+</header>
 
-<p>همه لحظه‌ها، یکجا</p>
+<div class="container">
 
-<button>شروع</button>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1200" alt="">
+<h2>خبر شماره ۱</h2>
+<p>
+اینجا متن خبر قرار می‌گیرد.
+</p>
+<button>ادامه مطلب</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200" alt="">
+<h2>خبر شماره ۲</h2>
+<p>
+متن خبر دوم را اینجا قرار بده.
+</p>
+<button>ادامه مطلب</button>
+</div>
+
+</div>
+
+<footer>
+© BTSINFO 2026
+</footer>
 
 </body>
 </html>
