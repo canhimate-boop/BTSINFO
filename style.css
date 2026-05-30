@@ -1,129 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTSINFO</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-body{
-background:#09090f;
-color:white;
-font-family:tahoma;
-margin:0;
-padding:0;
-}
+<body>
 
-header{
-background:#8b5cf6;
-padding:20px;
-text-align:center;
-}
+<div class="header">
+BTSINFO 💜
+</div>
 
-nav a{
-color:white;
-text-decoration:none;
-margin:10px;
-}
-body{
-background:#080811;
-body{
-background:#080811;
-color:white;
-font-family:tahoma;
-margin:0;
-}
+<div class="container">
 
-.container{
-width:95%;
-margin:auto;
-}
+<div class="news-card">
+<img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1200" alt="">
+<div class="news-content">
+<h2>خبر ویژه BTS</h2>
+<p>
+جدیدترین اخبار، کامبک‌ها، آلبوم‌ها و فعالیت‌های اعضای BTS را اینجا دنبال کنید.
+</p>
+<a href="#" class="btn">ادامه مطلب</a>
+</div>
+</div>
 
-.header{
-background:linear-gradient(90deg,#7b2cff,#c300ff);
-padding:20px;
-text-align:center;
-font-size:28px;
-font-weight:bold;
-}
+<div class="news-card">
+<div class="news-content">
+<h2>خبر شماره ۱</h2>
+<p>
+بی تی اس موفق شد رکورد جدیدی در چارت‌های جهانی ثبت کند.
+</p>
+<a href="#" class="btn">مشاهده</a>
+</div>
+</div>
 
-.news-card{
-background:#121220;
-border-radius:20px;
-overflow:hidden;
-margin-top:20px;
-box-shadow:0 0 20px rgba(123,44,255,.3);
-}
+<div class="news-card">
+<div class="news-content">
+<h2>خبر شماره ۲</h2>
+<p>
+اعضای گروه برای پروژه‌های جدید و فعالیت‌های آینده آماده می‌شوند.
+</p>
+<a href="#" class="btn">مشاهده</a>
+</div>
+</div>
 
-.news-card img{
-width:100%;
-display:block;
-}
+</div>
 
-.news-content{
-padding:20px;
-}
-
-.btn{
-background:#8a2cff;
-color:white;
-padding:12px 20px;
-border:none;
-border-radius:10px;
-display:inline-block;
-text-decoration:none;
-}
-color:white;
-font-family:tahoma;
-margin:0;
-}
-
-.container{
-width:95%;
-margin:auto;
-}
-
-.header{
-background:linear-gradient(90deg,#7b2cff,#c300ff);
-padding:20px;
-text-align:center;
-font-size:28px;
-
-font-weight:bold;
-}
-
-.news-card{
-background:#121220;
-border-radius:20px;
-overflow:hidden;
-margin-top:20px;
-box-shadow:0 0 20px rgba(123,44,255,.3);
-}
-
-.news-card img{
-width:100%;
-display:block;
-}
-
-.news-content{
-padding:20px;
-}
-
-.btn{
-background:#8a2cff;
-color:white;
-padding:12px 20px;
-border:none;
-border-radius:10px;
-display:inline-block;
-text-decoration:none;
-}
-.hero{
-padding:50px 20px;
-text-align:center;
-}
-
-.news{
-display:grid;
-gap:20px;
-padding:20px;
-}
-
-.card{
-background:#161625;
-padding:20px;
-border-radius:15px;
-}
+</body>
+</html>
