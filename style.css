@@ -1,52 +1,46 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BTSINFO</title>
-<link rel="stylesheet" href="style.css">
-</head>
+body{
+background:#080811;
+color:white;
+font-family:tahoma;
+margin:0;
+}
 
-<body>
+.container{
+width:95%;
+margin:auto;
+}
 
-<div class="header">
-BTSINFO 💜
-</div>
+.header{
+background:linear-gradient(90deg,#7b2cff,#c300ff);
+padding:20px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
 
-<div class="container">
+.news-card{
+background:#121220;
+border-radius:20px;
+overflow:hidden;
+margin-top:20px;
+box-shadow:0 0 20px rgba(123,44,255,.3);
+}
 
-<div class="news-card">
-<img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1200" alt="">
-<div class="news-content">
-<h2>خبر ویژه BTS</h2>
-<p>
-جدیدترین اخبار، کامبک‌ها، آلبوم‌ها و فعالیت‌های اعضای BTS را اینجا دنبال کنید.
-</p>
-<a href="#" class="btn">ادامه مطلب</a>
-</div>
-</div>
+.news-card img{
+width:100%;
+display:block;
+}
 
-<div class="news-card">
-<div class="news-content">
-<h2>خبر شماره ۱</h2>
-<p>
-بی تی اس موفق شد رکورد جدیدی در چارت‌های جهانی ثبت کند.
-</p>
-<a href="#" class="btn">مشاهده</a>
-</div>
-</div>
+.news-content{
+padding:20px;
+}
 
-<div class="news-card">
-<div class="news-content">
-<h2>خبر شماره ۲</h2>
-<p>
-اعضای گروه برای پروژه‌های جدید و فعالیت‌های آینده آماده می‌شوند.
-</p>
-<a href="#" class="btn">مشاهده</a>
-</div>
-</div>
-
-</div>
-
-</body>
-</html>
+.btn{
+background:#8a2cff;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:10px;
+display:inline-block;
+text-decoration:none;
+}
